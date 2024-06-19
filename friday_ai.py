@@ -16,4 +16,11 @@ def time():
     Time = datetime.datetime.now().strftime("%I:%M:%S")
     speak(Time)
 
+def date()
+    Date = datetime.datetime.now().strftime("%d %B %Y")
+     speak(Date)
+
+speak("The time currently is")
 time()
+speak("And the date currently is")
+date()
